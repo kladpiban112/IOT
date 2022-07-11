@@ -14,7 +14,7 @@ include 'layouts/session.php'; ?>
 
     <head>
         
-        <title>School Management System : SMS</title>
+        <title>Solar Cell Lighting</title>
         <?php include 'layouts/title-meta.php'; ?>
 
         <?php include 'layouts/head-css.php'; ?>
