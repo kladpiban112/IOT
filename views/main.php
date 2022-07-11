@@ -22,8 +22,18 @@
                                     <div class="card card-custom gutter-b bg-warning" style="height: 150px">
                                         <div class="card-body">
                                       
-                                            <div class="text-dark font-weight-bolder font-size-h2 mt-3"></div>
-                                            <a  class="text-dark text-hover-primary font-weight-bold font-size-lg mt-3"><strong></strong></a>
+                                            <div class="text-dark font-weight-bolder font-size-h2 mt-3"><h3>จำนวนหลอดไฟทั้งหมด</h3></div>
+                                            <a  class="text-dark text-hover-primary font-weight-bold font-size-lg mt-3"><strong><h3> จำนวน 100 ดวง</h3></strong></a>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <div class="col-xl-2">
+                                    <div class="card card-custom gutter-b bg-success" style="height: 150px">
+                                        <div class="card-body">
+                                    
+                                            <div class="text-dark font-weight-bolder font-size-h2 mt-3"><h3>ใช้งานได้ </h3></div>
+                                            <a lass="text-dark text-hover-primary font-weight-bold font-size-lg mt-3"><strong><h3>จำนวน 95 ดวง </h3></strong></a>
                                         </div>
                                     </div>
                             </div>
@@ -31,37 +41,27 @@
                             <div class="col-xl-2">
                                     <div class="card card-custom gutter-b bg-warning" style="height: 150px">
                                         <div class="card-body">
-                                    
-                                            <div class="text-dark font-weight-bolder font-size-h2 mt-3"></div>
-                                            <a lass="text-dark text-hover-primary font-weight-bold font-size-lg mt-3"><strong></strong></a>
+
+                                            <div class="text-dark font-weight-bolder font-size-h2 mt-3"><h3>ใช้งานไม่ได้ </h3></div>
+                                            <a  class="text-dark text-hover-primary font-weight-bold font-size-lg mt-3"><strong><h3>จำนวน 5 ดวง</h3></strong></a>
                                         </div>
                                     </div>
                             </div>
 
                             <div class="col-xl-2">
-                                    <div class="card card-custom gutter-b bg-success" style="height: 150px">
+                                    <div class="card card-custom gutter-b bg-warning" style="height: 150px">
                                         <div class="card-body">
-
-                                            <div class="text-dark font-weight-bolder font-size-h2 mt-3"></div>
-                                            <a  class="text-dark text-hover-primary font-weight-bold font-size-lg mt-3"><strong></strong></a>
+                                            <div class="text-dark font-weight-bolder font-size-h2 mt-3"><h3>เสาที่มีการล้มเอียง </h3></div>
+                                            <a class="text-dark text-hover-primary font-weight-bold font-size-lg mt-3"><strong><h3>จำนวน 3 เสา</h3></strong></a>
                                         </div>
                                     </div>
                             </div>
 
                             <div class="col-xl-2">
-                                    <div class="card card-custom gutter-b bg-success" style="height: 150px">
+                                    <div class="card card-custom gutter-b bg-warning" style="height: 150px">
                                         <div class="card-body">
-                                            <div class="text-dark font-weight-bolder font-size-h2 mt-3"></div>
-                                            <a class="text-dark text-hover-primary font-weight-bold font-size-lg mt-3"><strong></strong></a>
-                                        </div>
-                                    </div>
-                            </div>
-
-                            <div class="col-xl-2">
-                                    <div class="card card-custom gutter-b bg-success" style="height: 150px">
-                                        <div class="card-body">
-                                            <div class="text-dark font-weight-bolder font-size-h2 mt-3"></div>
-                                            <a  class="text-dark text-hover-primary font-weight-bold font-size-lg mt-3"><strong></strong></a>
+                                            <div class="text-dark font-weight-bolder font-size-h2 mt-3"><h3>พบปัญหาแบตเตอร์รี่</h3></div>
+                                            <a  class="text-dark text-hover-primary font-weight-bold font-size-lg mt-3"><strong><h3>จำนวน 2 จุด</h3></strong></a>
                                         </div>
                                     </div>
                             </div>
@@ -73,27 +73,9 @@
                             <div class="row">
       <!-- Map --> 
     <div >
-        <div id="map" style="width: 100%; height:750px;">
-        </div>
+    <iframe src="https://www.google.com/maps/d/embed?mid=1yn7YaPwzsyUONK_7eUvPYHOXxFugvNk&ehbc=2E312F" width="100%" height="750"></iframe>
     </div>
    
 
 
 
-<script>
-$(document).ready(function () {
-    'use strict';
-    var longdomapserver = 'http://ms.longdo.com/mmmap/tile.php?zoom={z}&x={x}&y={y}&key=5e785cb06a872f9662a93d93ad733eed&proj=epsg3857&HD=1';
-    var tileLayer = new L.TileLayer(longdomapserver, {
-                    'attribution': "© Longdo Map"
-                    });
-
-                var map = new L.Map('map', {
-                    'center': [14.9674218,102.0682299],
-                    'zoom': 12,
-                    'layers': [tileLayer]
-                    });
-                   
-                });       
-               
-</script>
