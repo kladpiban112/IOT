@@ -91,7 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <head>
         
-        <title>Sign In | Solar Cell Lighting</title>
+        <title>Sign In | Smart Street Light</title>
         <?php include 'layouts/title-meta.php'; ?>
 
         <?php include 'layouts/head-css.php'; ?>
@@ -123,7 +123,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <img src="assets/images/logo-sm-1.png" alt="" height="60">
                                     </a>
                                 </div>
-                                <p class="mt-3 fs-15 fw-medium"> Solar Cell Lighting</p>
+                                <p class="mt-3 fs-15 fw-medium">Smart Street Light</p>
                             </div>
                         </div>
                     </div>

@@ -14,7 +14,7 @@ include 'layouts/session.php'; ?>
 
     <head>
         
-        <title>Solar Cell Lighting</title>
+        <title>Smart Street Light</title>
         <?php include 'layouts/title-meta.php'; ?>
 
         <?php include 'layouts/head-css.php'; ?>
