@@ -2,7 +2,7 @@
 <?php include 'layouts/head-main.php'; ?>
 
     <head>
-        
+
         <title>Starter | Velzon - Admin & Dashboard Template</title>
         <?php include 'layouts/title-meta.php'; ?>
 

@@ -41,3 +41,4 @@ require_once ("./assets/lang/" . $lng . ".php");
 ?>
 <!DOCTYPE html>
 <html lang="<?=$lng?>"  data-layout="twocolumn" data-topbar="light" data-sidebar="light" data-sidebar-size="lg" data-layout-style="default">
+
