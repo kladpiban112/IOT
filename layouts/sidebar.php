@@ -54,27 +54,30 @@
 
 
 
-                <!-- <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarSchool" data-bs-toggle="collapse" role="button"
                         aria-expanded="false" aria-controls="sidebarSchool">
-                        <i class="ri-building-line"></i> <span data-key="t-school">โรงเรียน</span>
+                        <i class="ri-building-line"></i> <span data-key="t-l">สถานะการใช้งาน</span>
                     </a>
-                    <div class="collapse menu-dropdown" id="sidebarSchool">
+                    <div class="collapse menu-dropdown" id="sidebarSchool"> 
                         <ul class="nav nav-sm flex-column">
                             <li class="nav-item">
-                                <a href="?module=school" class="nav-link" data-key="t-school"> <?=$lang['t-school']?> </a>
+                                <a href="?module=lamp" class="nav-link" data-key="t-all"> <?=$lang['t-all']?> </a>
                             </li>
                             <li class="nav-item">
-                                <a href="?module=schoo&page=building" class="nav-link" data-key="t-building"> <?=$lang['t-building']?> </a>
+                                <a href="?module=lamp&page=lost" class="nav-link" data-key="t-all-lost"> <?=$lang['t-all-lost']?> </a>
                             </li>
                             <li class="nav-item">
-                                <a href="?module=schoo&page=room" class="nav-link" data-key="t-room"> <?=$lang['t-room']?> </a>
+                                <a href="?module=lamp&page=wrong" class="nav-link" data-key="t-wrong"> <?=$lang['t-wrong']?> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="?module=lamp&page=battery" class="nav-link" data-key="t-battery"> <?=$lang['t-battery']?> </a>
                             </li>
                         </ul>
                     </div>
                 </li>
 
-                <li class="nav-item">
+            <!--     <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarPeriod" data-bs-toggle="collapse" role="button"
                         aria-expanded="false" aria-controls="sidebarPeriod">
                         <i class="ri-calendar-2-line"></i> <span data-key="t-school">ปีการศึกษา</span>
