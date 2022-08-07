@@ -67,12 +67,8 @@
                             <li class="nav-item">
                                 <a href="?module=lamp&page=lost" class="nav-link" data-key="t-all-lost"> <?=$lang['t-all-lost']?> </a>
                             </li>
-                            <li class="nav-item">
-                                <a href="?module=lamp&page=wrong" class="nav-link" data-key="t-wrong"> <?=$lang['t-wrong']?> </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="?module=lamp&page=battery" class="nav-link" data-key="t-battery"> <?=$lang['t-battery']?> </a>
-                            </li>
+                            
+                           
                         </ul>
                     </div>
                 </li>
