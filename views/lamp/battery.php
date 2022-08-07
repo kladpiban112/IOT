@@ -1,5 +1,5 @@
 <style>
-h4 {
+h4,table {
     font-family: 'Prompt';
 }
 </style>
@@ -40,7 +40,7 @@ h4 {
                         <!-- end page title -->
 
                         <div class="row">
-                            <div class="col-xl-2">
+                            <!-- <div class="col-xl-2">
                                     <div class="card  gutter-b bg-warning"  id= example1  style="height: 120px "  >
                                         <div class="card-body ">
                                       
@@ -77,7 +77,7 @@ h4 {
                                             <a class="text-dark text-hover-primary font-weight-bold font-size-lg mt-3"><strong><h4>จำนวน 3 เสา</h4></strong></a>
                                         </div>
                                     </div>
-                            </div>
+                            </div> -->
 
                             <div class="col-xl-2">
                             <div class="card  gutter-b bg-warning"   id= example1  style="height: 120px " >
@@ -95,8 +95,27 @@ h4 {
                             <div class="row">
       <!-- Map --> 
     <div class="row">
-  
-        <div id="map" class="col-12">
+        <div  class="col-6">
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="table-primary">
+                    <th scope="col">เสาไฟ</th>
+                    <th scope="col">พื้นที่</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>6</td>
+                    <td>ต.สุรนารี</td>
+                    </tr>
+                    <tr>
+                    <td>7</td>
+                    <td>ต.สุรนารี</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="map" class="col-6">
             <iframe src="https://www.google.com/maps/d/embed?mid=1yn7YaPwzsyUONK_7eUvPYHOXxFugvNk&ehbc=2E312F" width="100%" height="750"></iframe>
         </div>
     </div>

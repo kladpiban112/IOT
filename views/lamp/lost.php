@@ -40,7 +40,7 @@ h4 {
                         <!-- end page title -->
 
                         <div class="row">
-                            <div class="col-xl-2">
+                            <!-- <div class="col-xl-2">
                                     <div class="card  gutter-b bg-warning"  id= example1  style="height: 120px "  >
                                         <div class="card-body ">
                                       
@@ -58,7 +58,7 @@ h4 {
                                             <a lass="text-dark text-hover-primary font-weight-bold font-size-lg mt-3"><strong><h4>จำนวน 95 ดวง </h4></strong></a>
                                         </div>
                                     </div>
-                            </div>
+                            </div> -->
 
                             <div class="col-xl-2">
                             <div class="card  gutter-b bg-warning "  id= example1  style="height: 120px " >
@@ -69,7 +69,7 @@ h4 {
                                         </div>
                                     </div>
                             </div>
-
+<!-- 
                             <div class="col-xl-2">
                             <div class="card  gutter-b bg-warning  " id= example1  style="height: 120px " >
                                         <div class="card-body">
@@ -86,7 +86,7 @@ h4 {
                                             <a  class="text-dark text-hover-primary font-weight-bold font-size-lg mt-3"><strong><h4>จำนวน 2 จุด</h4></strong></a>
                                         </div>
                                     </div>
-                            </div>
+                            </div> -->
 
                             
                             </div>

@@ -57,7 +57,7 @@
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarSchool" data-bs-toggle="collapse" role="button"
                         aria-expanded="false" aria-controls="sidebarSchool">
-                        <i class="ri-building-line"></i> <span data-key="t-l">สถานะการใช้งาน</span>
+                        <i class="ri-lightbulb-flash-line"></i> <span data-key="t-l">สถานะการใช้งาน</span>
                     </a>
                     <div class="collapse menu-dropdown" id="sidebarSchool"> 
                         <ul class="nav nav-sm flex-column">
@@ -77,26 +77,23 @@
                     </div>
                 </li>
 
-            <!--     <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarPeriod" data-bs-toggle="collapse" role="button"
                         aria-expanded="false" aria-controls="sidebarPeriod">
-                        <i class="ri-calendar-2-line"></i> <span data-key="t-school">ปีการศึกษา</span>
+                        <i class="ri-tools-fill"></i> <span data-key="t-school">D-fixx</span>
                     </a>
                     <div class="collapse menu-dropdown" id="sidebarPeriod">
                         <ul class="nav nav-sm flex-column">
                             <li class="nav-item">
-                                <a href="?module=period" class="nav-link" data-key="t-period"> <?=$lang['t-period']?> </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="?module=period&page=room" class="nav-link" data-key="t-manage-room"> <?=$lang['t-manage-room']?> </a>
-                            </li>
-                 
+                                <a href="?module=dfixx" class="nav-link" data-key="t-dfixx"> <?=$lang['t-dfixx']?> </a>
+                            </li>           
                         </ul>
                     </div>
                 </li>
 
 
-                <li class="nav-item">
+              
+            <!--    <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarStudent" data-bs-toggle="collapse" role="button"
                         aria-expanded="false" aria-controls="sidebarStudent">
                         <i class="ri-folder-user-line"></i> <span data-key="t-school">นักเรียน</span>
